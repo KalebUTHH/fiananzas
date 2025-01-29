@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #fafafa; /* Ligeramente más claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 650px; /* Aumenté un poco el ancho */
+    margin: 60px auto; /* Más espacio superior */
+    padding: 30px; /* Aumenté el padding */
+    background: #ffffff;
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombras más suaves */
+}
+
+h1 {
+    color: #444;
+    margin-bottom: 25px;
+    font-size: 32px; /* Aumenté el tamaño del encabezado */
+}
+
+h2 {
+    font-size: 26px; /* Aumenté el tamaño de los subtítulos */
+    margin: 25px 0;
+    font-weight: bold;
+    color: #555; /* Un gris más suave */
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 90%; /* Un poco más grande */
+    padding: 12px;
+    margin: 10px 0; /* Más margen entre los inputs */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Bordes un poco más suaves */
+    font-size: 18px; /* Aumento de tamaño de fuente */
+}
+
+button {
+    width: 220px; /* Un poco más grande */
+    padding: 12px;
+    margin: 12px;
+    border: none;
+    font-size: 18px; /* Aumento del tamaño del texto */
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px; /* Bordes más suaves */
+    transition: background 0.3s ease-in-out;
+}
+
+#balance {
+    font-size: 30px; /* Un poco más grande */
+    color: #0056b3; /* Color más intenso */
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px; /* Un poco más de espacio superior */
+}
+
+thead {
+    background: #0056b3; /* Azul más oscuro */
+    color: white;
+}
+
+th, td {
+    padding: 12px; /* Un poco más de padding */
+    border: 1px solid #ddd; /* Color de borde más suave */
+    text-align: center;
+}
+
+.ingreso {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.gasto {
+    color: #dc3545;
+    font-weight: bold;
+}
